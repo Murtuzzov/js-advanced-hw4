@@ -23,3 +23,17 @@ button.addEventListener("click", () => {
       break;
   }
 });
+
+
+// const bookList = document.querySelector(".books");
+// let clickedBook = "";
+
+// bookList.addEventListener("click", (event) => {
+//   if (event.target.classList.contains("book")) {
+//     if (clickedBook) {
+//       clickedBook.classList.remove("bgcolor-book");
+//     }
+//     clickedBook = event.target;
+//     clickedBook.classList.toggle("bgcolor-book");
+//   }
+// });
